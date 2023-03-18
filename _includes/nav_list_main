@@ -35,15 +35,15 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Stat-basic" %}
-                        <li><a href="/categories/stat-basic" class="">PlaceHolder({{category[1].size}})</a></li>
+                    {% if category[0] == "Placeholder3" %}
+                        <li><a href="/categories/placeholder3" class="">PlaceHolder Three({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Git" %}
-                        <li><a href="/categories/git" class="">PlaceHolder{{category[1].size}})</a></li>
+                        <li><a href="/categories/git" class="">PlaceHolder({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

@@ -1,7 +1,7 @@
 ---
-title: "A long way to go... Statistics / 뚜벅뚜벅 통계학 입문"
+title: "Note placeholder3"
 layout: archive
-permalink: categories/stat-basic
+permalink: categories/placeholder3
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Stat-basic %}
+{% assign posts = site.categories.Placeholder3 %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
