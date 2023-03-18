@@ -1,7 +1,7 @@
 ---
-title: "Don't be a fool, 차곡차곡 알아가는 IT지식!"
+title: "Note placeholder"
 layout: archive
-permalink: categories/itterm
+permalink: categories/placeholder1
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Itterm %}
+{% assign posts = site.categories.Placeholder1 %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

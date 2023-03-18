@@ -21,8 +21,8 @@
         <span class="nav__sub-title">Notes</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Itterm" %}
-                        <li><a href="/categories/itterm" class="">PlaceHolder({{category[1].size}})</a></li>
+                    {% if category[0] == "Placeholder1" %}
+                        <li><a href="/categories/placeholder" class="">PlaceHolder One ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
