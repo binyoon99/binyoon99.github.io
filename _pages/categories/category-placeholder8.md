@@ -1,7 +1,7 @@
 ---
-title: "선거관리위원회 여론조사 분석요원 일지"
+title: "Career placeholder8"
 layout: archive
-permalink: categories/poll-analysis
+permalink: categories/placeholder8
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Poll-analysis %}
+{% assign posts = site.categories.Placeholder8 %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

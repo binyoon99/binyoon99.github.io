@@ -76,8 +76,8 @@
         <span class="nav__sub-title">Career</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Poll-analysis" %}
-                        <li><a href="/categories/poll-analysis" class="">PlaceHolder({{category[1].size}})</a></li>
+                    {% if category[0] == "placeholder8" %}
+                        <li><a href="/categories/placeholder8" class="">PlaceHolder Eight ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>    
@@ -86,15 +86,15 @@
         <span class="nav__sub-title">Game</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Data-campus" %}
-                        <li><a href="/categories/data-campus" class="">PlaceHolder ({{category[1].size}})</a></li>
+                    {% if category[0] == "Placeholder9" %}
+                        <li><a href="/categories/placeholder9" class="">PlaceHolder Nine ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Project" %}
-                        <li><a href="/categories/project" class="">PlaceHolder({{category[1].size}})</a></li>
+                    {% if category[0] == "Placeholder10" %}
+                        <li><a href="/categories/placeholder10" class="">PlaceHolder Ten({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -110,8 +110,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Life" %}
-                        <li><a href="/categories/life" class="">PlaceHolder({{category[1].size}})</a></li>
+                    {% if category[0] == "Placeholder11" %}
+                        <li><a href="/categories/placeholder11" class="">PlaceHolder Eleven({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

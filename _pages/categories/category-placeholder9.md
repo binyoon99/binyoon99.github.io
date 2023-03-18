@@ -1,7 +1,7 @@
 ---
-title: "get away from my secret. 내 생활에 대한 이모조모 🍎🍏"
+title: "Game placeholder9"
 layout: archive
-permalink: categories/life
+permalink: categories/placeholder9
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Life %}
+{% assign posts = site.categories.Placeholder9 %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

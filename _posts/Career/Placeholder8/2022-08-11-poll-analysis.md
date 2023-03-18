@@ -1,10 +1,11 @@
 ---
-published: true
-title:  "[생활메모] 자취생 월세 구하기, 이사 팁 정리" 
-excerpt: "내가 겪고 깨달은 월세 구하고 이사하는 과정의 팁"
+title:  "Career placeholder8" 
+excerpt: "placeholder8"
 
 categories:
-  - Life
+  - Placeholder8
+tags:
+  - [Review, Data Analysis, Poll]
 
 toc: true
 toc_sticky: true

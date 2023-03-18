@@ -1,7 +1,7 @@
 ---
-title: "placeHolder"
+title: "BLog placeholder11"
 layout: archive
-permalink: categories/data-campus
+permalink: categories/placeholder11
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Data-campus %}
+{% assign posts = site.categories.Placeholder11 %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

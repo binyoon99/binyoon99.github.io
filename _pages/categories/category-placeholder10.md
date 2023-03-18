@@ -1,7 +1,7 @@
 ---
-title: "Veni, vidi, vici / 몰입은 성장의 아버지."
+title: "Game placeholder10"
 layout: archive
-permalink: categories/project
+permalink: categories/placeholder10
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Project %}
+{% assign posts = site.categories.Placeholder10 %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
