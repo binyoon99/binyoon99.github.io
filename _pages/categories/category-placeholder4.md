@@ -1,7 +1,7 @@
 ---
-title: "placeHolder"
+title: "Note placeholder4"
 layout: archive
-permalink: categories/cumhwal
+permalink: categories/placeholder4
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Cumhwal %}
+{% assign posts = site.categories.Placeholder4 %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

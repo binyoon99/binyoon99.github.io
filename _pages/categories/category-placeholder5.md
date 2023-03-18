@@ -1,7 +1,7 @@
 ---
-title: "Git & Github 안내서"
+title: "placeholder5"
 layout: archive
-permalink: categories/git
+permalink: categories/placeholder5
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Git %}
+{% assign posts = site.categories.Placeholder5 %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

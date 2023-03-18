@@ -1,7 +1,7 @@
 ---
-title: "never ending story by data study, SQLd 공부하기."
+title: "Life placeholder7"
 layout: archive
-permalink: categories/sqld
+permalink: categories/placeholder7
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.SQLd %}
+{% assign posts = site.categories.Placeholder7 %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

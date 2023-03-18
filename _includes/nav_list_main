@@ -42,8 +42,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Git" %}
-                        <li><a href="/categories/git" class="">PlaceHolder({{category[1].size}})</a></li>
+                    {% if category[0] == "Placeholder4" %}
+                        <li><a href="/categories/placeholder4" class="">PlaceHolder Four({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -52,22 +52,22 @@
         <span class="nav__sub-title">Life</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Cumhwal" %}
-                        <li><a href="/categories/cumhwal" class="">PlaceHolder({{category[1].size}})</a></li>
+                    {% if category[0] == "Placeholder5" %}
+                        <li><a href="/categories/placeholder5" class="">PlaceHolder Five({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "ADP" %}
-                        <li><a href="/categories/adp" class="">PlaceHolder({{category[1].size}})</a></li>
+                    {% if category[0] == "Placeholder6" %}
+                        <li><a href="/categories/placeholder6" class="">PlaceHolder Six({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "SQLd" %}
-                        <li><a href="/categories/sqld" class="">PlaceHolder({{category[1].size}})</a></li>
+                    {% if category[0] == "Placeholder7" %}
+                        <li><a href="/categories/placeholder7" class="">PlaceHolder Seven({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
