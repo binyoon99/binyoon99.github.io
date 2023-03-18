@@ -1,2 +1,1 @@
-# binyoon99.github.io
-binyoon99's blog
+[![pages-build-deployment](https://github.com/binyoon99/binyoon99.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/binyoon99/binyoon99.github.io/actions/workflows/pages/pages-build-deployment)
