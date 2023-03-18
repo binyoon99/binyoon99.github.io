@@ -1,7 +1,7 @@
 ---
-title: "Don't forget again, 데이터베이스와 SQL"
+title: "Placeholder2"
 layout: archive
-permalink: categories/sql
+permalink: categories/placeholder2
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.SQL %}
+{% assign posts = site.categories.Placeholder2 %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
