@@ -76,7 +76,7 @@
         <span class="nav__sub-title">Career</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "placeholder8" %}
+                    {% if category[0] == "Placeholder8" %}
                         <li><a href="/categories/placeholder8" class="">PlaceHolder Eight ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
