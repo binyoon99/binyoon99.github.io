@@ -1,7 +1,7 @@
 ---
-title: "placeholder5"
+title: "Daily"
 layout: archive
-permalink: categories/placeholder5
+permalink: categories/daily
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Placeholder5 %}
+{% assign posts = site.categories.Daily %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

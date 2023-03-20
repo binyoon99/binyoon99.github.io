@@ -19,13 +19,7 @@
       </li>
       <li>
         <span class="nav__sub-title">Notes</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Placeholder1" %}
-                        <li><a href="/categories/placeholder1" class="">PlaceHolder One ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Placeholder2" %}
@@ -52,8 +46,8 @@
         <span class="nav__sub-title">Life</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Placeholder5" %}
-                        <li><a href="/categories/placeholder5" class="">PlaceHolder Five({{category[1].size}})</a></li>
+                    {% if category[0] == "Daily" %}
+                        <li><a href="/categories/daily" class="">Daily ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
