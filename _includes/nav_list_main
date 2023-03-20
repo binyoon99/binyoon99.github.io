@@ -18,7 +18,13 @@
         </ul>
       </li>
       <li>
-        <span class="nav__sub-title">Notes</span>
+        <span class="nav__sub-title">Notes</span><ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Firebase" %}
+                    <li><a href="/categories/firebase" class="">Firebase({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
 
             <ul>
                 {% for category in site.categories %}
