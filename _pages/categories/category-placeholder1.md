@@ -1,7 +1,7 @@
 ---
-title: "Note placeholder"
+title: "Firebase"
 layout: archive
-permalink: categories/placeholder1
+permalink: categories/firebase
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Placeholder1 %}
+{% assign posts = site.categories.Firebase %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
