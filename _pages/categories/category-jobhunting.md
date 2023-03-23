@@ -1,7 +1,7 @@
 ---
-title: "Career placeholder8"
+title: "Job Hunting"
 layout: archive
-permalink: categories/placeholder8
+permalink: categories/jobhunting
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Placeholder8 %}
+{% assign posts = site.categories.Jobhunting %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
