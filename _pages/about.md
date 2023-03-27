@@ -13,7 +13,7 @@ tags:
 
 ### About me. 
 
-1. NaturCat's Personal Blog, inspired by 김차헌 (Kim ChaHeon)https://github.com/heoni00
+1. NaturCat's Personal Blog, inspired by 김차헌 (Kim ChaHeon) https://github.com/heoni00
 
 2. Heather Yoon
 
