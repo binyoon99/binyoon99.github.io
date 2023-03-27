@@ -1,7 +1,7 @@
 ---
-title: "Placeholder2"
+title: "ChatGPT API projects"
 layout: archive
-permalink: categories/placeholder2
+permalink: categories/chatGPT1
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Placeholder2 %}
+{% assign posts = site.categories.ChatGPT1 %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

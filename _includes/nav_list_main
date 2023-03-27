@@ -18,7 +18,7 @@
         </ul>
       </li>
       <li>
-        <span class="nav__sub-title">Notes</span><ul>
+        <span class="nav__sub-title">Projects/span><ul>
             {% for category in site.categories %}
                 {% if category[0] == "Firebase" %}
                     <li><a href="/categories/firebase" class="">Firebase({{category[1].size}})</a></li>
@@ -28,8 +28,8 @@
 
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Placeholder2" %}
-                        <li><a href="/categories/placeholder2" class="">PlaceHolder Two({{category[1].size}})</a></li>
+                    {% if category[0] == "ChatGPT1" %}
+                        <li><a href="/categories/chatGPT1" class="">chatGPT3.5 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
